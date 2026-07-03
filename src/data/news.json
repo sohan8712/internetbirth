@@ -1,0 +1,146 @@
+{
+  "1990": [
+    { "title": "WorldWideWeb browser created by Tim Berners-Lee", "category": "TECH" },
+    { "title": "Hubble Space Telescope launched", "category": "SCIENCE" }
+  ],
+  "1991": [
+    { "title": "World Wide Web opened to the public", "category": "TECH" },
+    { "title": "Soviet Union dissolves", "category": "WORLD" }
+  ],
+  "1992": [
+    { "title": "First SMS text message sent", "category": "TECH" },
+    { "title": "Netscape founded (originally Mosaic Communications)", "category": "TECH" }
+  ],
+  "1993": [
+    { "title": "Mosaic browser released - web goes graphical", "category": "TECH" },
+    { "title": "World Wide Web goes public domain", "category": "TECH" }
+  ],
+  "1994": [
+    { "title": "Amazon founded by Jeff Bezos", "category": "BUSINESS" },
+    { "title": "Yahoo! created by Jerry Yang and David Filo", "category": "TECH" }
+  ],
+  "1995": [
+    { "title": "Windows 95 launches with Internet Explorer", "category": "TECH" },
+    { "title": "eBay founded as AuctionWeb", "category": "BUSINESS" }
+  ],
+  "1996": [
+    { "title": "Nokia 9000 Communicator - first smartphone concept", "category": "TECH" },
+    { "title": "The DVD format announced", "category": "TECH" }
+  ],
+  "1997": [
+    { "title": "Google.com domain registered", "category": "TECH" },
+    { "title": "Deep Blue beats Kasparov at chess", "category": "TECH" }
+  ],
+  "1998": [
+    { "title": "Google founded by Larry Page and Sergey Brin", "category": "TECH" },
+    { "title": "iMac released - Apple's comeback begins", "category": "TECH" }
+  ],
+  "1999": [
+    { "title": "Napster launches - file-sharing revolution", "category": "TECH" },
+    { "title": "Y2K preparations grip the world", "category": "WORLD" }
+  ],
+  "2000": [
+    { "title": "Dot-com bubble bursts", "category": "BUSINESS" },
+    { "title": "PlayStation 2 launches", "category": "GAMING" }
+  ],
+  "2001": [
+    { "title": "Wikipedia launched", "category": "TECH" },
+    { "title": "iPod released - 1,000 songs in your pocket", "category": "TECH" }
+  ],
+  "2002": [
+    { "title": "Broadband surpasses dial-up in US homes", "category": "TECH" },
+    { "title": "Friendster launches - first social network boom", "category": "TECH" }
+  ],
+  "2003": [
+    { "title": "Skype launches - free internet calling", "category": "TECH" },
+    { "title": "MySpace becomes the dominant social network", "category": "TECH" }
+  ],
+  "2004": [
+    { "title": "Facebook launches from Harvard dorm room", "category": "TECH" },
+    { "title": "Gmail invites become the hottest commodity", "category": "TECH" }
+  ],
+  "2005": [
+    { "title": "YouTube founded - 'Me at the zoo'", "category": "TECH" },
+    { "title": "Reddit launches", "category": "TECH" }
+  ],
+  "2006": [
+    { "title": "Twitter launches - 140 characters", "category": "TECH" },
+    { "title": "Wii released - motion controls go mainstream", "category": "GAMING" }
+  ],
+  "2007": [
+    { "title": "iPhone announced by Steve Jobs", "category": "TECH" },
+    { "title": "Amazon Kindle released - eBook revolution", "category": "TECH" }
+  ],
+  "2008": [
+    { "title": "App Store launches with 500 apps", "category": "TECH" },
+    { "title": "Google Chrome browser released", "category": "TECH" }
+  ],
+  "2009": [
+    { "title": "Bitcoin network launched", "category": "TECH" },
+    { "title": "WhatsApp founded", "category": "TECH" }
+  ],
+  "2010": [
+    { "title": "Instagram launches", "category": "TECH" },
+    { "title": "iPad released - tablet computing arrives", "category": "TECH" }
+  ],
+  "2011": [
+    { "title": "Snapchat launched", "category": "TECH" },
+    { "title": "IBM Watson wins Jeopardy!", "category": "TECH" }
+  ],
+  "2012": [
+    { "title": "Facebook hits 1 billion users", "category": "TECH" },
+    { "title": "Coursera launches - MOOC revolution begins", "category": "TECH" }
+  ],
+  "2013": [
+    { "title": "Snowden leaks reveal global surveillance programs", "category": "WORLD" },
+    { "title": "Tesla Model S named Car of the Year", "category": "TECH" }
+  ],
+  "2014": [
+    { "title": "ALS Ice Bucket Challenge goes viral", "category": "CULTURE" },
+    { "title": "Amazon Echo / Alexa introduced", "category": "TECH" }
+  ],
+  "2015": [
+    { "title": "Apple Watch released", "category": "TECH" },
+    { "title": "Star Wars: The Force Awakens breaks box office records", "category": "CULTURE" }
+  ],
+  "2016": [
+    { "title": "Pokémon GO takes over the world", "category": "GAMING" },
+    { "title": "DeepMind's AlphaGo beats Lee Sedol at Go", "category": "TECH" }
+  ],
+  "2017": [
+    { "title": "Nintendo Switch released", "category": "GAMING" },
+    { "title": "Netflix passes 100M subscribers", "category": "TECH" }
+  ],
+  "2018": [
+    { "title": "Fortnite becomes a global phenomenon", "category": "GAMING" },
+    { "title": "GDPR goes into effect in Europe", "category": "TECH" }
+  ],
+  "2019": [
+    { "title": "First image of a black hole captured", "category": "SCIENCE" },
+    { "title": "5G networks begin rolling out worldwide", "category": "TECH" }
+  ],
+  "2020": [
+    { "title": "COVID-19 pandemic - world goes remote", "category": "WORLD" },
+    { "title": "Zoom becomes verb - 300M daily users", "category": "TECH" }
+  ],
+  "2021": [
+    { "title": "NFT mania peaks with $69M Beeple sale", "category": "TECH" },
+    { "title": "Facebook rebrands as Meta", "category": "TECH" }
+  ],
+  "2022": [
+    { "title": "ChatGPT launches - AI goes mainstream", "category": "TECH" },
+    { "title": "Elon Musk acquires Twitter for $44B", "category": "BUSINESS" }
+  ],
+  "2023": [
+    { "title": "GPT-4 released - multimodal AI arrives", "category": "TECH" },
+    { "title": "Threads launches by Meta", "category": "TECH" }
+  ],
+  "2024": [
+    { "title": "AI-generated content floods the web", "category": "TECH" },
+    { "title": "Apple Vision Pro released", "category": "TECH" }
+  ],
+  "2025": [
+    { "title": "AGI whispers - reasoning models everywhere", "category": "TECH" },
+    { "title": "Quantum computing reaches milestone", "category": "SCIENCE" }
+  ]
+}

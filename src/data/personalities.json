@@ -1,0 +1,16 @@
+{
+  "personalities": [
+    { "id":"bbs-native","name":"BBS Native","era":"pre-web","description":"You knew the sysop by name. ASCII art was your high-res graphics. The handshake sound is your lullaby.","traits":["Patient","Technical","Community-Focused"],"rarity":"Legendary"},
+    { "id":"web-pioneer","name":"Web Pioneer","era":"dawn","description":"You viewed source on everything. Gray backgrounds. Blue links. You had a 'Best viewed in Netscape' badge.","traits":["Curious","Experimental","Idealistic"],"rarity":"Epic"},
+    { "id":"dialup-survivor","name":"Dial-Up Survivor","era":"dialup","description":"'Get off the phone!' is your battle cry. You mastered the 56k handshake. Busy signals built character.","traits":["Patient","Resourceful","Resilient"],"rarity":"Rare"},
+    { "id":"dotcom-dreamer","name":"Dot-Com Dreamer","era":"dotcom","description":"You had a GeoCities site. Guestbook signatures were currency. You believed pets.com would change the world.","traits":["Optimistic","Creative","Entrepreneurial"],"rarity":"Rare"},
+    { "id":"broadband-pioneer","name":"Broadband Pioneer","era":"broadband","description":"Always on. No handshake. Napster. AIM away messages as personality tests.","traits":["Early-Adopter","Social","Experimental"],"rarity":"Uncommon"},
+    { "id":"web2-creator","name":"Web 2.0 Creator","era":"web2","description":"Round corners. Gradients. Tags. You blogged. You tagged. You friended. You were the content.","traits":["Expressive","Collaborative","Open-Source"],"rarity":"Uncommon"},
+    { "id":"mobile-native","name":"Mobile Native","era":"mobile","description":"Pinch to zoom. 'There's an app for that.' Touch replaced click. You designed for thumbs.","traits":["Adaptive","Visual","On-The-Go"],"rarity":"Common"},
+    { "id":"social-graph","name":"Social Graph Native","era":"social","description":"The feed. The like. The share. Your friends became your editors. The algorithm learned you.","traits":["Connected","Curated","Algorithm-Aware"],"rarity":"Common"},
+    { "id":"stream-child","name":"Stream Child","era":"streaming","description":"No buffering. Binge culture. Twitch plays Pokémon. Bandwidth became invisible.","traits":["On-Demand","Visual","Impatient"],"rarity":"Common"},
+    { "id":"algorithmic-native","name":"Algorithmic Native","era":"algorithmic","description":"For you. Recommended. You don't follow — you're followed. Chronological is a myth.","traits":["Discoverable","Trend-Aware","Feed-Optimized"],"rarity":"Common"},
+    { "id":"pandemic-digital","name":"Pandemic Digital","era":"pandemic","description":"Zoom school. Remote everything. The internet became the only place. Digital fatigue is real.","traits":["Resilient","Community-Builder","Digital-First"],"rarity":"Uncommon"},
+    { "id":"ai-native","name":"AI Native","era":"ai","description":"The web writes itself. Chat. Generate. Summarize. The line between human and synthetic blurs.","traits":["Synthetic-Fluent","Efficient","Future-Facing"],"rarity":"Epic"}
+  ]
+}

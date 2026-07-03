@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --background: #F7F0E2;
+  --foreground: #1B1B1B;
+  --primary-red: #C62828;
+  --dark-red: #7B1F1F;
+  --cream: #F7F0E2;
+  --black: #1B1B1B;
+  --gold: #D4A017;
+}
+
+* { box-sizing: border-box; padding: 0; margin: 0; }
+html { scroll-behavior: smooth; }
+body { background-color: #C62828; color: #1B1B1B; font-family: 'JetBrains Mono', monospace; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+
+@layer base {
+  .pixel-border { border: 4px solid #1B1B1B; box-shadow: 8px 8px 0px 0px #1B1B1B; }
+  .pixel-border-sm { border: 2px solid #1B1B1B; box-shadow: 4px 4px 0px 0px #1B1B1B; }
+  .paper-texture { position: relative; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.02'/%3E%3C/svg%3E"); }
+  .crt-scanlines::after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(0deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 1px, transparent 1px, transparent 3px); pointer-events: none; z-index: 10; }
+  .font-pixel { font-family: 'Press Start 2P', cursive; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+}
+
+@layer utilities {
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+  .animate-delay-500 { animation-delay: 500ms; }
+  .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .backface-hidden { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+  .rotate-y-180 { transform: rotateY(180deg); }
+  .perspective-1000 { perspective: 1000px; }
+  .transform-style-3d { transform-style: preserve-3d; }
+  .pixel-border-b { border-bottom: 4px solid #1B1B1B; }
+}
+
+@keyframes blink { 0%,50% { opacity: 1 } 51%,100% { opacity: 0 } }
+.animate-blink { animation: blink 1s infinite; }
+
+@keyframes crt-flicker {
+  0% { opacity: 1; }
+  5% { opacity: 0.95; }
+  10% { opacity: 1; }
+  15% { opacity: 0.97; }
+  20% { opacity: 1; }
+  50% { opacity: 0.98; }
+  80% { opacity: 1; }
+  85% { opacity: 0.96; }
+  90% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+.animate-crt-flicker { animation: crt-flicker 0.15s infinite; }
+
+.group:hover .group-hover\:crt-flicker {
+  animation: crt-flicker 0.15s infinite;
+}
+
+.pixel-lift {
+  transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
+}
+.pixel-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 6px 8px 0px 0px #1B1B1B;
+}
+
+@media (prefers-reduced-motion: reduce) { *,*::before,*::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; } }
+
+::selection { background-color: #D4A017; color: #1B1B1B; }
+
+@media (pointer: fine) {
+  a, button, [role="button"], [tabindex]:not([tabindex="-1"]) {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='20' viewBox='0 0 16 20'%3E%3Cpolygon points='1,1 1,17 4,14 7,18 10,16 7,12 14,12' fill='%231B1B1B' stroke='%23F7F0E2' stroke-width='0.5'/%3E%3C/svg%3E") 1 1, pointer;
+  }
+}
